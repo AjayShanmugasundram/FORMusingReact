@@ -29,6 +29,7 @@ export default function Forms() {
       if (Name[key] === "" && key !== "h") {
         return key;
       }
+      return 0;
     });
     if (errorkeys.length >= 1) {
       setRequired("*FILL THE DATA*");
